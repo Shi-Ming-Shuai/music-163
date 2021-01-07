@@ -1,0 +1,95 @@
+html {
+  /* iphone 6/7/8 尺寸 */
+  font-size: 26.666666666vw;
+}
+body {
+  margin: 0;
+  font: normal 400 12px/1.15 "Microsoft YaHei", "Heiti SC", tahoma, arial,
+    "Hiragino Sans GB", "\5B8B\4F53", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+  /* 继承 */
+  font-size: inherit;
+}
+p,
+dl,
+dd {
+  margin: 0;
+}
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+strong,
+b {
+  font-weight: normal;
+}
+em,
+i {
+  font-style: normal;
+}
+del {
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: 0;
+}
+button {
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent;
+}
+input {
+  font-size: inherit;
+  font-family: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  /* 清除轮廓线 */
+  outline: none;
+}
+
+textarea {
+  /* 禁止用户重置元素大小 */
+  resize: none;
+  overflow: auto;
+  padding: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+
+  height: 0;
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}

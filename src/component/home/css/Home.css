@@ -1,0 +1,58 @@
+.header {
+  padding: 0 0.1rem;
+  height: 0.84rem;
+  line-height: 0.84rem;
+  background-color: #d43c33;
+}
+.header h1 {
+  font-size: 0.25rem;
+  color: #fff;
+}
+.tabbar {
+  background-color: #fff;
+}
+.tabbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 0.4rem;
+  border-bottom: 1px solid #eeeeee;
+}
+.tabbar ul li {
+  font-size: 0.15rem;
+}
+.tabbar ul li .active {
+  color: #dd001b;
+  padding-bottom: 10px;
+  border-bottom: 2px solid red;
+}
+/* 推荐页面 */
+.rec-song {
+  padding-top: 0.2rem;
+}
+.rec-song h2 {
+  margin-left: 0.1rem;
+  font-size: 0.17rem;
+  margin-bottom: 0.14rem;
+}
+.rec-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.rec-item {
+  width: 1.22rem;
+  margin-bottom: 0.15rem;
+}
+.rec-item img {
+  width: 1.22rem;
+  height: 1.22rem;
+}
+.rec-item p {
+  padding: 6px 2px 0 6px;
+  font-size: 0.13rem;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
