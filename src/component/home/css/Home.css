@@ -27,14 +27,16 @@
   border-bottom: 2px solid red;
 }
 /* 推荐页面 */
-.rec-song {
-  padding-top: 0.2rem;
-}
-.rec-song h2 {
+#recommend h2{
+  margin-top: 0.2rem;
   margin-left: 0.1rem;
   font-size: 0.17rem;
   margin-bottom: 0.14rem;
 }
+/* 推荐页面 */
+.rec-song {
+}
+
 .rec-list {
   display: flex;
   flex-wrap: wrap;
@@ -55,4 +57,36 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
   overflow: hidden;
+}
+/* 最新音乐 */
+.new-song {
+}
+.new-song ul li {
+  box-sizing: border-box;
+  display: flex;
+  height: 0.55rem;
+  border-bottom: 1px solid #f3f3f4;
+  padding: 6px 0.1rem;
+}
+.new-song .song-name {
+  width: 3.2rem;
+}
+.song-name .title {
+  margin-bottom: 0.1rem;
+  font-size: 0.17rem;
+}
+.song-name .artists {
+  font-size: 0.12rem;
+  color: #888;
+}
+.new-song .paly {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+.new-song .paly button {
+  width: 22px;
+  height: 22px;
 }

@@ -5,7 +5,6 @@ import { withRouter } from "react-router-dom";
 
 class GoBack extends Component {
   render() {
-    console.log(this);
     return (
       <div>
         {/* 返回上一级 */}
