@@ -1,0 +1,57 @@
+#playlist {
+  width: 100%;
+}
+#playlist .head {
+  margin-top: 2px;
+}
+#playlist .header-img {
+  width: 100%;
+  height: 1.45rem;
+  background: url("~assets/img/hot_music_bg_2x.jpg") no-repeat 100% 100%;
+  background-repeat: no-repeat;
+}
+#playlist .header-img div {
+  width: 1.42rem;
+  height: 0.97rem;
+}
+
+/* 音乐列表 */
+
+.song-list {
+}
+.song-list ul li {
+  box-sizing: border-box;
+  display: flex;
+  height: 0.55rem;
+  border-bottom: 1px solid #f3f3f4;
+}
+.song-list .song-name {
+  padding: 6px 0;
+  width: 3rem;
+}
+.song-list .song-id {
+  width: 0.4rem;
+  height: 0.55rem;
+  text-align: center;
+  line-height: 0.55rem;
+  font-size: 0.17rem;
+}
+.song-name .title {
+  margin-bottom: 0.1rem;
+  font-size: 0.17rem;
+}
+.song-name .artists {
+  font-size: 0.12rem;
+  color: #888;
+}
+.song-list .paly {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.song-list .paly button {
+  width: 22px;
+  height: 22px;
+  background: url("~assets/img/song-paly.jpg");
+}

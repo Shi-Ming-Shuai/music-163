@@ -8,6 +8,7 @@ import { BrowserRouter } from "react-router-dom"
 
 // 公共样式
 import "./assets/css/reset.css";
+// import "https://at.alicdn.com/t/font_2315667_qwqu3popyrg.css"  在index.html引入
 
 ReactDOM.render(
   <BrowserRouter>

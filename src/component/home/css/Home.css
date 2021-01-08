@@ -27,7 +27,7 @@
   border-bottom: 2px solid red;
 }
 /* 推荐页面 */
-#recommend h2{
+#recommend h2 {
   margin-top: 0.2rem;
   margin-left: 0.1rem;
   font-size: 0.17rem;
@@ -66,9 +66,9 @@
   display: flex;
   height: 0.55rem;
   border-bottom: 1px solid #f3f3f4;
-  padding: 6px 0.1rem;
 }
 .new-song .song-name {
+  padding: 6px 0.1rem;
   width: 3.2rem;
 }
 .song-name .title {
@@ -84,9 +84,84 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 .new-song .paly button {
   width: 22px;
   height: 22px;
+  background: url("~assets/img/song-paly.jpg");
+}
+/* 搜索页面 */
+.search {
+  background-color: #fbfcfd;
+}
+.search .search-ipt {
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.15rem 0.1rem;
+  height: 0.6rem;
+  border-bottom: 1px solid #f2f3f4;
+}
+/* 搜索图标  重置文本框内容图标 */
+
+.search .icon-sousuo {
+  position: absolute;
+  left: 0.23rem;
+  top: 0.23rem;
+  font-size: 12px;
+  color: #cbcbcc;
+}
+.search .icon-quxiao {
+  position: absolute;
+  right: 0.23rem;
+  top: 0.23rem;
+  font-size: 12px;
+  color: #cbcbcc;
+}
+.search .search-ipt input {
+  box-sizing: border-box;
+  padding: 0 0.3rem;
+  height: 0.3rem;
+  width: 100%;
+  border-radius: 0.15rem;
+  background-color: #ebecec;
+}
+.search .hot-search {
+  padding: 0.15rem 0.1rem 0;
+}
+.search .hot-search h2 {
+  font-size: 0.12rem;
+  color: #666666;
+}
+.search .hot-search ul {
+  margin-top: 0.14rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.search .hot-search ul li {
+  padding: 0 0.14rem;
+  height: 0.32rem;
+  line-height: 0.32rem;
+  margin: 0 8px 8px 0;
+  border: 1px solid #edeef0;
+  border-radius: 0.16rem;
+}
+.search .hot-search ul li a {
+  font-size: 0.14rem;
+}
+/* 搜索结果列表 */
+.search .search-list {
+}
+.search .search-list ul .keywords {
+  color: #507daf;
+}
+.search .search-list ul li {
+  padding-left: 0.1rem;
+  height: 0.5rem;
+  line-height: 0.2rem;
+  font-size: 15px;
+  color: #333333;
+}
+.search .search-list ul li .iconfont {
+  margin-right: 0.1rem;
+  font-size: 15px;
 }

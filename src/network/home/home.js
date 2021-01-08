@@ -16,6 +16,21 @@ function GetRecNewsong(params) {
     params
   })
 }
+// 热门搜索列表
+function GetHotSearch() {
+  return request({
+    url: "/search/hot"
+  })
+}
+// 搜索歌曲  （关键字 ?keyword=名称）
+function Search(keywords) {
+  return request({
+    url: "/search",
+    params: {
+      keywords
+    }
+  })
+}
 export {
-  GetPersonalized,GetRecNewsong
+  GetPersonalized, GetRecNewsong, GetHotSearch,Search
 }

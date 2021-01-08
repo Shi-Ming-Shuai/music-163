@@ -32,8 +32,8 @@ export default class RecSong extends Component {
   render() {
     return (
       <div id="recommend">
+        <h2>推荐歌单</h2>
         <div className="rec-song">
-          <h2>推荐歌单</h2>
           <div className="rec-list">
             {this.state.recList.map((item) => {
               return (
@@ -50,8 +50,8 @@ export default class RecSong extends Component {
             })}
           </div>
         </div>
+        <h2>最新音乐</h2>
         <div className="new-song">
-          <h2>最新音乐</h2>
           <ul>
             {this.state.recNewSong.map((item) => {
               return (
@@ -78,7 +78,7 @@ export default class RecSong extends Component {
                     </div>
                   </div>
                   <div className="paly">
-                    <button>放</button>
+                    <button></button>
                   </div>
                 </li>
               );
