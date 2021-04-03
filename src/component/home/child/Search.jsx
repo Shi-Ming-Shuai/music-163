@@ -58,6 +58,7 @@ export default class Hot extends Component {
     this.setState({
       searchVal: "",
       isShowHot: true,
+      isReset: false,
     });
   }
   state = {
@@ -119,7 +120,7 @@ export default class Hot extends Component {
             if (r.state.isReset) {
               return (
                 <i
-                  className="iconfont icon-quxiao"
+                  className="iconfont icon-quxiao1"
                   onClick={() => r.clearSearch()}
                 ></i>
               );
